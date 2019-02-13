@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+}
+
+.logo {
+    height: 40px;
+
+}
+
+li {
+    line-height: 30px;
+}
+
+.card {
+    background-color: #e4e5e7;
+    margin: 10px auto;
+    padding: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    width: 50%;
+}
+
+@media (max-width: 1500px) {
+    .half, .card {
+        width: auto;
+    }
+}
+
+.card a {
+    text-decoration: none;
+    border-bottom: 2px solid #e94f37;
+    color: #000000;
+}
+
+.card a:hover {
+    border-bottom: 2px solid #eb5f49;
+}
+
+.card p {
+    font-size: 25px;
+    text-align: left;
+}
+
+.half {
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.topnav {
+    background-color: #282828;
+    overflow: hidden;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+ }
+ 
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+ 
+.topnav a:hover {
+    background-color: #484347;
+    color: #f2f2f2;
+}
+ 
+.topnav a:not(:first-child) {display: none;}
+.topnav a.icon {
+     float: right;
+     display: block;
+}
+ 
+.topnav.responsive {position: relative;}
+.topnav.responsive a.icon {
+     position: absolute;
+     right: 0;
+     top: 0;
+}
+   .topnav.responsive a {
+     float: none;
+     display: block;
+     text-align: left;
+}
+ 
+ 
+.topnav .icon {
+    display: none;
+}
+
+.banner {
+    height:30%;
+    width: 100%;
+    display:block;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-image: url(../images/banner.jpg);
+    padding-top:20%;
+    margin-top: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+}
+
+.para-image {
+    height: 50%;
+    width: 100%;
+    display:block;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.sky {
+    background-image: url(../images/sky.jpg);
+}
+
+.footer {
+    background-color: #252324;
+    color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+}
+
+.banner-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.area-1 {
+    background-color: #e94f37;
+    padding: 20px;
+    text-align: center;
+}
+
+.area-2 {
+    background-color: #5c415d;
+    padding: 20px;
+    text-align: center;
+}
+
+.sub-foot {
+    background-color: #282828;
+    padding: 20px;
+    color: #ffffff;
+    height: auto;
+}
+
+.darkcard {
+	margin: 1%;
+	padding: 1%;
+	background-color: #252324;
+    text-align: center;
+    width: 29%;
+    float: left;
+}
+
+.column {
+    float: left;
+    width: 29.33%;
+    padding: 1%;
+    background-color: #252324;
+    margin: 1%;
+    line-break: 25px;
+    height: 160px;
+    text-align: center;
+}
+
+@media (max-width: 1082px) {
+    .column {
+        width: 96%;
+    }
+}
+
+.column a {
+    text-decoration: none;
+    color: #ffffff;
+    border-bottom: 1px solid #e94f37;
+}
+
+.column h2 {
+    text-align: center;
+}
+
+.column p {
+    line-height: 25px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+th {
+    text-align: left;
+    padding-right: 10px;
+}
