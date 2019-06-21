@@ -1,5 +1,7 @@
 # bio.meecso.com
 
+**NOTE: This repository has been archived and will no longer be updated.**
+
 ---
 
 This repository houses the website files for [bio.meecso.com](https://bio.meecso.com). NOTE: this website is no longer being updated since its purpose has been fulfilled. 
